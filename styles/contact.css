@@ -1,0 +1,11 @@
+body{
+    background-image: url(/Know\ CET.jpg);
+    background-size: cover;
+   
+}
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: xx-large;
+    font-weight: bold; 
+}

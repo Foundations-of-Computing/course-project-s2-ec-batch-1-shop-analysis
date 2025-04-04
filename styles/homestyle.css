@@ -1,0 +1,45 @@
+body{
+    background-image: url(/Know\ CET.jpg);
+    background-size: cover;
+   
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-item:hover{
+    background-color: darkorange;
+    color: antiquewhite;
+}
+.nav-item:active{
+    background-color: chocolate;
+    color: beige;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    color: goldenrod;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+
+}
+.intro{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+
+}

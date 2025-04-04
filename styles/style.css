@@ -1,0 +1,87 @@
+body{
+    background-image: url(/Know\ CET.jpg);
+    background-size: cover;
+}
+p{
+    text-align: center;
+    padding: 50px;
+    font-size: larger;
+}
+
+nav {
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 100px;
+    display: block;
+}
+
+/* Style for dropdowns */
+.list {
+    position: relative;
+    transition-property: all;
+    transition-duration: 5ms;
+    list-style-type: none;
+}
+
+.contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.contents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  display: block;
+  }
+
+.contents a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown when the parent element is focused (clicked) */
+.list:focus-within .contents {
+    display: block;
+}
+
+/* Style the links when hovering over them */
+.list:hover a {
+    background-color: #fff7ae;
+}
+
+  /* Optional: Add styling for focus */
+.list:focus-within a {
+    background-color: #ece667;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+img {
+    height: 200px;
+    width: 300px;
+}
