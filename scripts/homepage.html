@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <script>// Select all nav items
+        const navItems = document.querySelectorAll('.nav-item');
+        
+        // Add event listener to each nav item for click event
+        navItems.forEach(item => {
+          item.addEventListener('click', function() {
+                alert(`Hope you enjoy our website`);
+             });
+        });</script>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li><a href="index.html">Know More</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="intro">
+        <p>College of Engineering Trivandrum (CET), is one of the best engineering colleges in Kerala. It's campus extending over 125 acres of land, it is one of the most spacious campuses in the country. So we know that it is very much difficult to locate the shops and emergency services that the people require in and around the campus.</p>
+        <br>
+        <p>Don't worry! We are here to help you.</p>
+        <br>
+        <p>This website helps you to know the best places you wish to find near CET.</p>
+    </div>
+</body>
